@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     color: #0f141e;
-    background: #f1f1f1;
+    background-image: url(https://kipmu.ru/wp-content/uploads/pchmnmr-scaled.jpg);
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
 .info-text p {
     font-style: italic;
     font-weight: bold;
-    color: #86898f;
+    color: #f2f4f8;
     margin: 0;
 }
 
@@ -59,19 +59,22 @@ body {
 }
 
 .bg-yellow {
-    background: #fff9dc;
+    background: #81cdd9;
+    opacity: 0.8;
 }
 
 .bg-red {
-    background: #ffe5e5;
+    background: #3669a7;
+    opacity: 0.8;
 }
 
 .bg-green {
-    background: #e5ffe7;
+    background: #9ea3aa;
+    opacity: 0.8;
 }
 
 a:visited {
-    color: grey;
+    color: white;
 }
 
 a {
@@ -109,7 +112,7 @@ a:active {
 }
 
 .list li {
-    color: #86898f;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -134,9 +137,14 @@ a:active {
 
 .table td:nth-child(2),
 .table td:nth-child(3) {
-    color: #86898f;
+    color: white;
 }
-
+.form{
+    background: #2e6e78;
+    border-radius: 10px;
+    opacity: 0.8;
+    padding-left:20px;
+}
 .form h2 {
     text-align: center;
 
@@ -171,8 +179,8 @@ a:active {
 
 .form-group label {
     display: block;
-    font-size: 14px;
-    color: #86898f;
+    font-size: 18px;
+    color:white;
 }
 
 .form-group input,
@@ -188,4 +196,10 @@ a:active {
     outline: none;
     /* чтобыобласть не подсвечивалась */
     font-family: inherit;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url(https://photocentra.ru/images/main59/591814_main.jpg);
+    }
 }
